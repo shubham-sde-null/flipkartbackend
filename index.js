@@ -14,7 +14,7 @@ mongoose.connect(DATABASE, () => {
   console.log("mongosee atlas  connection successful");
 });
 app.get("/", (req, res) => {
-  res.send("working the api and env");
+  res.send("flipkart backend testing");
 });
 app.get("/users", async (req, res) => {
   const allData = await User.find();
